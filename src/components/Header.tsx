@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { getWhatsAppLink } from "./WhatsAppButton";
 
 const navItems = [
@@ -8,7 +8,6 @@ const navItems = [
   { label: "Diferenciais", href: "#diferenciais" },
   { label: "Depoimentos", href: "#depoimentos" },
   { label: "FAQ", href: "#faq" },
-  { label: "Contato", href: "#contato" },
 ];
 
 export function Header() {
@@ -35,13 +34,13 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href={getWhatsAppLink()}
+            href={getWhatsAppLink("Olá! Preciso de um orçamento gratuito para PPCI/RPCI.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden items-center gap-2 rounded-lg gradient-cta px-4 py-2.5 text-sm font-semibold text-success-foreground shadow-cta transition-transform hover:scale-105 sm:flex"
+            className="hidden items-center gap-2 rounded-lg gradient-cta px-4 py-2.5 text-sm font-bold text-success-foreground shadow-cta transition-transform hover:scale-105 sm:flex"
           >
-            <Phone className="h-4 w-4" />
-            Fale Conosco
+            <MessageCircle className="h-4 w-4" />
+            Orçamento Grátis
           </a>
 
           <button
@@ -67,13 +66,13 @@ export function Header() {
             </a>
           ))}
           <a
-            href={getWhatsAppLink()}
+            href={getWhatsAppLink("Olá! Preciso de um orçamento gratuito para PPCI/RPCI.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 flex items-center justify-center gap-2 rounded-lg gradient-cta px-4 py-3 text-sm font-semibold text-success-foreground"
+            className="mt-2 flex items-center justify-center gap-2 rounded-lg gradient-cta px-4 py-3 text-sm font-bold text-success-foreground"
           >
-            <Phone className="h-4 w-4" />
-            Fale Conosco
+            <MessageCircle className="h-4 w-4" />
+            Orçamento Grátis
           </a>
         </nav>
       )}
