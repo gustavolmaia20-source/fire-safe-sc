@@ -7,9 +7,7 @@ export function Footer() {
       <div className="container">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-1">
-            <p className="font-display text-xl font-extrabold text-primary">
-              RCR<span className="text-accent"> Engenharia</span>
-            </p>
+            <img src={logoRcr} alt="RCR Engenharia" className="h-10 w-auto" />
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
               Especialistas em prevenção contra incêndio. PPCI, RPCI e regularizações em todo o estado de Santa Catarina.
             </p>

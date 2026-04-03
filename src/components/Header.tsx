@@ -17,8 +17,8 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-40 border-b border-border/50 bg-card/90 backdrop-blur-md">
       <div className="container flex h-16 items-center justify-between md:h-20">
-        <a href="#" className="font-display text-xl font-extrabold tracking-tight text-primary md:text-2xl">
-          RCR<span className="text-accent"> Engenharia</span>
+        <a href="#" className="flex items-center">
+          <img src={logoRcr} alt="RCR Engenharia" className="h-10 md:h-12 w-auto" />
         </a>
 
         <nav className="hidden items-center gap-6 lg:flex">
