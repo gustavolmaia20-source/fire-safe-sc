@@ -1,4 +1,5 @@
 import { getWhatsAppLink } from "./WhatsAppButton";
+import logoRcr from "@/assets/logo-rcr.avif";
 
 export function Footer() {
   return (

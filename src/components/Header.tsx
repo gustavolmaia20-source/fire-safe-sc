@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { getWhatsAppLink } from "./WhatsAppButton";
+import logoRcr from "@/assets/logo-rcr.avif";
 
 const navItems = [
   { label: "Serviços", href: "#servicos" },
