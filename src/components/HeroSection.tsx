@@ -48,7 +48,7 @@ export function HeroSection() {
             className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-primary-foreground/80 md:text-xl"
           >
             Multas de até <strong className="text-primary-foreground">R$ 50.000</strong>, interdição e perda do alvará.
-            A RCR Engenharia cuida de todo o processo de <strong className="text-primary-foreground">PPCI e RPCI</strong> — do projeto
+            A RCR Engenharia cuida de todo o processo de <strong className="text-primary-foreground">PPCI, RPCI e regularização</strong> — do projeto
             à aprovação — com <strong className="text-primary-foreground">orçamento gratuito em 24h</strong>.
           </motion.p>
 

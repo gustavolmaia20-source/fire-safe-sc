@@ -39,7 +39,7 @@ export function FinalCTASection() {
               <ArrowRight className="h-5 w-5" />
             </a>
             <a
-              href={getWhatsAppLink("Olá! Gostaria de receber um orçamento gratuito para PPCI/RPCI.")}
+              href={getWhatsAppLink("Olá! Gostaria de receber um orçamento gratuito para PPCI, RPCI ou regularização.")}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-8 py-4 text-base font-semibold text-primary-foreground transition-colors hover:bg-white/10"

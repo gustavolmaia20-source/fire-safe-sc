@@ -16,7 +16,7 @@ const steps = [
   {
     number: "03",
     title: "Projeto e Protocolo",
-    description: "Elaboramos o PPCI/RPCI completo e protocolamos no Corpo de Bombeiros por você.",
+    description: "Elaboramos o projeto completo (PPCI, RPCI ou regularização) e protocolamos no Corpo de Bombeiros por você.",
   },
   {
     number: "04",
