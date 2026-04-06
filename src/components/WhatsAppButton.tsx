@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5548999999999"; // Substituir pelo número real
+const WHATSAPP_NUMBER = "5547999563585";
 const DEFAULT_MESSAGE = "Olá! Gostaria de saber mais sobre os serviços de PPCI, RPCI e regularização da RCR Engenharia.";
 
 export function getWhatsAppLink(message?: string) {
