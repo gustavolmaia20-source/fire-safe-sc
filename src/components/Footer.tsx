@@ -9,7 +9,7 @@ export function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <img src={logoRcr} alt="RCR Engenharia" className="h-10 w-auto" />
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              Especialistas em prevenção contra incêndio. PPCI, RPCI e regularizações em todo o estado de Santa Catarina.
+              Especialistas em prevenção contra incêndio. PPCI, RPCI e regularização de imóveis em todo o estado de Santa Catarina.
             </p>
           </div>
 
@@ -17,8 +17,8 @@ export function Footer() {
             <h4 className="font-display text-sm font-bold text-foreground">Serviços</h4>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li><a href="#servicos" className="hover:text-foreground transition-colors">PPCI — Projeto Preventivo</a></li>
-              <li><a href="#servicos" className="hover:text-foreground transition-colors">RPCI — Regularização</a></li>
-              <li><a href="#servicos" className="hover:text-foreground transition-colors">Acompanhamento e Vistorias</a></li>
+              <li><a href="#servicos" className="hover:text-foreground transition-colors">RPCI — Relatório Preventivo</a></li>
+              <li><a href="#servicos" className="hover:text-foreground transition-colors">Regularização de Imóveis</a></li>
             </ul>
           </div>
 

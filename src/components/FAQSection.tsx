@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Qual a diferença entre PPCI e RPCI?",
-    a: "O PPCI é o projeto preventivo para edificações novas ou que ainda estão em fase de construção. O RPCI (Regularização Preventiva Contra Incêndio) é para edificações já existentes que precisam se regularizar junto ao Corpo de Bombeiros, seja por nunca terem feito o projeto ou por estarem com documentação vencida.",
+    a: "O PPCI (Projeto Preventivo Contra Incêndio) é o projeto técnico que define os sistemas de segurança necessários para a edificação. Já o RPCI (Relatório Preventivo Contra Incêndio) é um documento técnico que atesta as condições de segurança de uma edificação existente. São documentos complementares, e ambos podem ser necessários dependendo da situação do seu imóvel.",
   },
   {
     q: "Meu imóvel precisa de PPCI?",
@@ -47,7 +47,7 @@ export function FAQSection() {
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-wider text-accent">Perguntas Frequentes</p>
           <h2 className="mt-2 font-display text-3xl font-bold text-foreground md:text-4xl text-balance">
-            Tire suas dúvidas sobre PPCI e RPCI
+            Tire suas dúvidas sobre PPCI, RPCI e regularização
           </h2>
         </div>
 

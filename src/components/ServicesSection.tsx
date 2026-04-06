@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FileText, RefreshCw, ClipboardCheck, ArrowRight } from "lucide-react";
+import { FileText, ClipboardCheck, ShieldCheck, ArrowRight } from "lucide-react";
 import { getWhatsAppLink } from "./WhatsAppButton";
 
 const services = [
@@ -12,20 +12,20 @@ const services = [
     cta: "Solicitar orçamento de PPCI",
   },
   {
-    icon: RefreshCw,
-    title: "RPCI — Regularização",
+    icon: ClipboardCheck,
+    title: "RPCI — Relatório Preventivo",
     description:
-      "Seu imóvel já existe mas não tem aprovação nos bombeiros? Fazemos toda a regularização, incluindo adequações necessárias e emissão do atestado de conformidade.",
-    details: ["Vistoria técnica no local", "Adequação às exigências", "Acompanhamento até aprovação"],
-    cta: "Regularizar meu imóvel",
+      "Elaboramos o Relatório Preventivo Contra Incêndio (RPCI), documento técnico que comprova as condições de segurança da sua edificação perante o Corpo de Bombeiros.",
+    details: ["Levantamento técnico completo", "Relatório conforme normas vigentes", "ART do responsável técnico"],
+    cta: "Solicitar orçamento de RPCI",
   },
   {
-    icon: ClipboardCheck,
-    title: "Acompanhamento e Vistorias",
+    icon: ShieldCheck,
+    title: "Regularização de Imóveis",
     description:
-      "Cuidamos de toda a parte burocrática junto ao Corpo de Bombeiros: protocolo, acompanhamento de exigências, agendamento de vistorias e obtenção do Habite-se.",
-    details: ["Protocolo e acompanhamento", "Resposta a exigências técnicas", "Liberação do Habite-se"],
-    cta: "Saber mais sobre vistorias",
+      "Seu imóvel não tem aprovação nos bombeiros? Fazemos toda a regularização, incluindo adequações necessárias e obtenção do atestado de conformidade.",
+    details: ["Análise da situação atual", "Adequação às exigências", "Acompanhamento até aprovação"],
+    cta: "Regularizar meu imóvel",
   },
 ];
 
@@ -43,7 +43,7 @@ export function ServicesSection() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
           {services.map((service, i) => (
             <motion.div
               key={service.title}

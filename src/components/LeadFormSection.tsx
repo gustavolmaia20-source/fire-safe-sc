@@ -30,7 +30,7 @@ export function LeadFormSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const whatsappMessage = `Olá! Meu nome é ${form.name}.\nCidade: ${form.city}\nTipo de edificação: ${form.buildingType}\n${form.message ? `Mensagem: ${form.message}` : "Gostaria de mais informações sobre PPCI/RPCI."}`;
+    const whatsappMessage = `Olá! Meu nome é ${form.name}.\nCidade: ${form.city}\nTipo de edificação: ${form.buildingType}\n${form.message ? `Mensagem: ${form.message}` : "Gostaria de mais informações sobre PPCI, RPCI ou regularização."}`;
     window.open(getWhatsAppLink(whatsappMessage), "_blank");
     setSubmitted(true);
   };

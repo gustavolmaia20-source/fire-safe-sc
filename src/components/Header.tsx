@@ -35,7 +35,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href={getWhatsAppLink("Olá! Preciso de um orçamento gratuito para PPCI/RPCI.")}
+            href={getWhatsAppLink("Olá! Preciso de um orçamento gratuito para PPCI, RPCI ou regularização.")}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden items-center gap-2 rounded-lg gradient-cta px-4 py-2.5 text-sm font-bold text-success-foreground shadow-cta transition-transform hover:scale-105 sm:flex"
@@ -67,7 +67,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href={getWhatsAppLink("Olá! Preciso de um orçamento gratuito para PPCI/RPCI.")}
+            href={getWhatsAppLink("Olá! Preciso de um orçamento gratuito para PPCI, RPCI ou regularização.")}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 flex items-center justify-center gap-2 rounded-lg gradient-cta px-4 py-3 text-sm font-bold text-success-foreground"

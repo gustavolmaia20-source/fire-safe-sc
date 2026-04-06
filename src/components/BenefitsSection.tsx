@@ -18,7 +18,7 @@ const benefits = [
   {
     icon: Scale,
     title: "Responsabilidade Criminal",
-    description: "Em caso de incêndio, o proprietário responde criminalmente. Sem PPCI/RPCI, não há defesa legal possível.",
+    description: "Em caso de incêndio, o proprietário responde criminalmente. Sem a documentação em dia, não há defesa legal possível.",
     urgency: false,
   },
   {
